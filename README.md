@@ -14,16 +14,7 @@ The system architecture consists of two primary microservices and a relational d
 
 
 ## 🛠 Build Instructions
-Before we start, configure project variables(use [.env.example](POSTGRES_DB=app_db
-POSTGRES_USER=win
-POSTGRES_PASSWORD=password
-POSTGRES_PORT=5432
-
-JWT_SECRET=very-long-random-string-for-signing-jwt-32-chars
-JWT_EXPIRATION=86400000
-
-INTERNAL_TOKEN=super-secret-key-123
-SERVICE_B_URL=http://data-api:8081) as a template)
+Before we start, configure project variables(use .env.example as a template)
     
 
 1. Compile the project and build the executable JAR files for both modules using Maven:
