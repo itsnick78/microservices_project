@@ -31,9 +31,9 @@ SERVICE_B_URL=http://data-api:8081) as a template)
    mvn clean package -DskipTests
 ```
 2. Build the Docker images for the microservices:
-
+```
    docker-compose up -d --build
-
+```
 ## 🌐 Available API Endpoints
 
 ### 🔐 Auth API (`auth-service`, port `8080`)
